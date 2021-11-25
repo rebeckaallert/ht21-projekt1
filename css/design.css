@@ -1,5 +1,59 @@
 body {
-background-color: aquamarine;
+background-color: bisque;
 
 
 }
+
+#wrapper {
+    display: grid;
+    grid-template-areas:
+    'nv nv nv'
+    'mn mn mn'
+    'mn mn mn'
+    'ft ft ft';
+    grid-template-rows: auto;
+    row-gap: 0.5em;
+
+
+}
+
+
+nav { 
+    grid-area: nv;
+    background-color:#cce6ff;
+    height: 10vh;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+h1 {
+
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+main {
+    grid-area: mn;
+    background-color: blueviolet;
+    height: 70vh;
+
+}
+
+footer {
+    grid-area: ft;
+    background-color: cornflowerblue;
+    height: 20vh;
+}
+
+/*display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  
+color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+  
