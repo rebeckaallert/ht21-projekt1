@@ -1,5 +1,5 @@
 body {
-background-color: bisque;
+background-color: rgb(255, 255, 255);
 
 
 }
@@ -8,7 +8,6 @@ background-color: bisque;
     display: grid;
     grid-template-areas:
     'nv nv nv'
-    'mn mn mn'
     'mn mn mn'
     'ft ft ft';
     grid-template-rows: auto;
@@ -24,6 +23,7 @@ nav {
     height: 10vh;
     padding-bottom: 120px;
     box-sizing: border-box;
+    
 }
 
 h1 {
@@ -38,7 +38,7 @@ h1 {
 main {
     grid-area: mn;
     background-color: blueviolet;
-    height: 70vh;
+    height: 90vh;
 
 }
 
@@ -48,12 +48,5 @@ footer {
     height: 20vh;
 }
 
-/*display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-  
-color: white;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3em;
-    text-align: center;
+
   
