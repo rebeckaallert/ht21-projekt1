@@ -21,8 +21,9 @@ nav {
     grid-area: nv;
     background-color:#cce6ff;
     height: 10vh;
-    padding-bottom: 120px;
+    padding-top: 20px;
     box-sizing: border-box;
+    
     
 }
 
@@ -32,21 +33,21 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3em;
     text-align: center;
+    margin: auto;
+    
     
 }
 
 main {
     grid-area: mn;
-    background-color: blueviolet;
+    border: solid black 5px;
     height: 90vh;
 
 }
 
 footer {
     grid-area: ft;
-    background-color: cornflowerblue;
+    border: solid black 5px;
     height: 20vh;
 }
 
-
-  
