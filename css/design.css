@@ -40,9 +40,22 @@ h1 {
 
 main {
     grid-area: mn;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
     border: solid black 5px;
     height: 90vh;
+    padding: 40px 40px 40px 40px;
 
+}
+
+img {
+    height: 400px;
+    border: solid #cce6ff 10px;
+    border-radius: 100%;
+   
 }
 
 footer {
@@ -51,3 +64,10 @@ footer {
     height: 20vh;
 }
 
+
+
+
+
+
+/*Photo by <a href="https://unsplash.com/@ramm_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gita Krishnamurti</a> on <a href="https://unsplash.com/s/photos/boba-tea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
