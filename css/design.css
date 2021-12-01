@@ -9,6 +9,7 @@ background-color: rgb(255, 255, 255);
     grid-template-areas:
     'nv nv nv'
     'mn mn mn'
+    'ar ar ar'
     'ft ft ft';
     grid-template-rows: auto;
     row-gap: 0.5em;
@@ -25,8 +26,8 @@ nav {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     
     
 }
@@ -51,12 +52,13 @@ main {
     grid-area: mn;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
+    justify-content: space-evenly;
     
-    height: 90vh;
-    padding: 40px 40px 40px 40px;
+    
+   
+    height: 42vh;
+    padding: 40px 40px 0px 40px;
+    margin-top: 20vh;
 
 }
 
@@ -69,7 +71,16 @@ main {
 
 .brödtext {
     color: black;
+    font-size: x-large;
+}
 
+
+#text {
+    grid-area: ar;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20vh;
 }
 
 footer {
