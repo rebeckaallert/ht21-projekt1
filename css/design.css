@@ -19,12 +19,21 @@ background-color: rgb(255, 255, 255);
 
 nav { 
     grid-area: nv;
+    display: flex;
     background-color:#cce6ff;
-    height: 10vh;
-    padding-top: 20px;
+    height: 13vh;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
     
     
+}
+
+.logo {
+    height: 90px;
+
 }
 
 h1 {
@@ -45,23 +54,34 @@ main {
     justify-content: center;
     align-items: center;
     column-gap: 40px;
-    border: solid black 5px;
+    
     height: 90vh;
     padding: 40px 40px 40px 40px;
 
 }
 
-img {
+.boba {
     height: 400px;
     border: solid #cce6ff 10px;
-    border-radius: 100%;
+    border-radius: 50%;
    
+}
+
+.brödtext {
+    color: black;
+
 }
 
 footer {
     grid-area: ft;
-    border: solid black 5px;
-    height: 20vh;
+   
+    height: 35vh;
+    background-color: #cce6ff;
+}
+
+p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
