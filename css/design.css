@@ -113,6 +113,7 @@ a {
     width: 160vh;
     display: flex;
     flex-direction: row;
+
     
     
     
@@ -160,13 +161,25 @@ a {
       text-align: bottom;
       font-size: 20px;
       line-height: 1vh;
-      margin-top: 50px 
+      margin-top: 50px ;
+      
 
        }
-#knapp {
-    color: rgb(44, 44, 44);
-    border: solid black 5px;
+#cart{
+        color: rgb(44, 44, 44);
+      text-align: bottom;
+      font-size: 20px;
+      line-height: 1vh;
+      margin-top: 50px;
+      border: black solid 5px;
+      padding: 10px;
 
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
 
 }
 
