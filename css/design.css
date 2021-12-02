@@ -110,8 +110,11 @@ a {
 #produkt {
     padding: 10vh 0vh 10vh 10vh;
     height: 70vh;
-    width: 100%;
-
+    width: 160vh;
+    display: flex;
+    flex-direction: row;
+    
+    
     
    
 }
@@ -119,19 +122,53 @@ a {
 #bild {
     height: 70vh;
     align-content: left;
+    margin-right: 30vw;
+    border: solid #cce6ff 10px;
 }
+
+
+.vertical-line{
+    width: 20px; 
+    background-color: rgb(44, 44, 44); 
+    height: 100%; 
+    float: left; 
+    margin-right: 20px;
+
+    
+  }
+
 
 .produktnamn {
-    color: black;
-    font-size: x-large;
+    
+    color: rgb(44, 44, 44);
+    font-size: 300%;
     text-align: right;
-
+    font-family: 'Josefin Sans', sans-serif;
+    height: 5vh;
+    margin: 10px 50px 50px 0px;
+    text-align: left;
+    line-height: 3vh;
+    
+    
 
 }
 
 
 
+  #test {
+      color: rgb(44, 44, 44);
+      text-align: bottom;
+      font-size: 20px;
+      line-height: 1vh;
+      margin-top: 50px 
 
+       }
+#knapp {
+    color: rgb(44, 44, 44);
+    border: solid black 5px;
+
+
+}
 
 
 
