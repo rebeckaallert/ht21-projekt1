@@ -38,24 +38,21 @@ nav {
 }
 
 h1 {
-
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3em;
     text-align: center;
     margin: auto;
-    
-    
+     
 }
 
-main {
+
+
+#first {
     grid-area: mn;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
-    
-   
     height: 42vh;
     padding: 40px 40px 0px 40px;
     margin-top: 20vh;
@@ -80,20 +77,58 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 20vh;
+    padding-bottom: 20vh;  
+    
 }
 
 footer {
     grid-area: ft;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     height: 35vh;
     background-color: #cce6ff;
+    line-height: 170%;
+    padding-top: 3vh;
+    padding-right: 20vh;
+    padding-left: 10vh;
+    
 }
+
 
 p {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
+    
 }
+
+a {
+    text-decoration: none;
+
+}
+
+#produkt {
+    padding: 10vh 0vh 10vh 10vh;
+    height: 70vh;
+    width: 100%;
+
+    
+   
+}
+
+#bild {
+    height: 70vh;
+    align-content: left;
+}
+
+.produktnamn {
+    color: black;
+    font-size: x-large;
+    text-align: right;
+
+
+}
+
 
 
 
