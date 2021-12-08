@@ -56,6 +56,7 @@ h1 {
     height: 42vh;
     padding: 40px 40px 0px 40px;
     margin-top: 20vh;
+    margin-bottom: 1vh;
 
 }
 
@@ -66,20 +67,31 @@ h1 {
    
 }
 
-.brödtext {
-    color: black;
-    font-size: x-large;
+
+
+#låda {
+    
+    width: 98.5vw;
+    height: 10vh;
+    margin-bottom: 20vh;
+  
 }
 
-
-#text {
-    grid-area: ar;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 20vh;  
+#namn {
+    color:black;
+    font-size: 1.5em;
+    padding-left: 15vw;
     
 }
+
+span {
+    margin-left: 355px;
+
+
+}
+
+
+
 
 footer {
     grid-area: ft;
@@ -180,12 +192,6 @@ a {
 
 }
 
-.plus {
-    border: black solid 5px;
-    width: 50px;
-    height: 50px;
-
-}
 
 
 
@@ -194,11 +200,7 @@ a {
 
 
 
-article {
-    display: flex;
-    flex-direction: column;
 
-}
 
 
 
