@@ -194,8 +194,29 @@ a {
 
 
 
+#about {
+    
+    height: 100vh;
+    
+    padding: 5vh 3vw 0vh 3vh;
+
+}
+
+.brödtext {
+    color: black;
+    line-height: 3vh;
+    
+    float: right;
+    font-size: 20px;
+}
 
 
+.westcoast {
+    height: 400x;
+    width: 400px;
+    float: left;
+    margin-right: 2vw;
+}
 
 
 
