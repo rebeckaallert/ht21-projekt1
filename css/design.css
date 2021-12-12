@@ -196,17 +196,17 @@ a {
 
 #about {
     
-    height: 100vh;
+    height: 70vh;
     
-    padding: 5vh 3vw 0vh 3vh;
+    padding: 5vh 4vw 0vh 4vw;
 
 }
 
 .brödtext {
     color: black;
     line-height: 3vh;
+    text-align: top;
     
-    float: right;
     font-size: 20px;
 }
 
